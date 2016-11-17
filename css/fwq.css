@@ -1,0 +1,238 @@
+
+select{
+  	width: 150px;
+  	outline: medium none;
+}
+.server{
+	width: 100%;
+	height: auto;
+	margin-top:20px;
+}
+.server-t{
+	width: 85%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.oli{
+	width: 100%;
+	height: auto;
+	line-height: 30px;
+	margin-top:20px;
+
+}
+.oli select{
+	width: 200px;
+	/*height: 30px;*/
+	font-size: 16px;
+	border: 1px solid #ccc;
+	padding: 0 10px;
+}
+.select li{
+	width: 70px;
+	height: 30px;
+	display: inline-block;
+	*zoom:1; 
+	*display:inline;
+	margin-right: 20px;
+	/*background: #ccc;*/
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+	font-size: 16px;
+}
+.current{
+	color: #fff;
+	background: #0099ff;
+}
+.oli p{
+	font-size: 18px;
+	float: left;
+	width: 150px;
+	text-align: right;
+}
+ul.server{
+	width:400px;
+	margin:100px auto;
+}
+.scale_panel{
+	color:#999;
+	width:435px;
+	line-height:18px;
+	float: left;}
+.scale_panel .r{
+	margin-right: 39px;
+	color: #000;
+
+}
+.scale_panel .b{
+	margin-right: 20px;
+	color: #000;
+
+}
+
+.scale span{
+	width:23px;
+	height:24px;
+	cursor:pointer;
+	border-radius: 100%;
+	background: #0099ff;
+	background:url(../images/scroll.png) no-repeat;
+	position:absolute;
+	left:-2px;
+	top:-5px;
+	cursor:pointer;
+}
+.scale{ 
+	background-repeat: repeat-x;
+	background-position: 0 100%;
+	background-color: #E4E4E4; 
+	border-left: 1px #83BBD9 solid; 
+	width: 400px; 
+	height: 10px; 
+	font-size: 0px;
+	border-radius: 3px; 
+	position: absolute;
+	margin-top:3px;
+}
+.scale div{ 
+	background-repeat: repeat-x; 
+	background-color: #0099ff; 
+	width: 0px; 
+	position: absolute; 
+	height: 10px; 
+	width: 0; 
+	left: 0; 
+	bottom: 0; }
+.server li{
+	line-height:30px;
+	position:relative;
+	height:30px;
+}
+.title{
+	line-height: 30px;
+}
+.server-b{
+	width: 85%;
+	height: auto;
+	margin: 50px auto;
+}
+.server-c{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	border: 1px solid #000;
+	margin-top: 50px;
+	text-align: left;
+}
+.server-c li {
+	width: 95%;
+	height: auto;
+	margin: 0 auto;
+}
+.server-c li p{
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+}
+.server-s{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.server-s p{
+	width: 95%;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+	font-size: 24px;
+	margin: 0 auto;
+}
+.upgrade{
+	width: 95%；
+	height：300px;
+	border: 1px solid #000;
+}
+.upgrade p{
+	font-size: 14px;
+}
+.upgrade p span{
+	margin-right: 33px;
+}
+
+/*域名注册*/
+.domain{
+	width: 100%;
+	height: auto;
+	margin: 50px auto;
+}
+
+.domain-t{
+	width: 85%;
+	height: auto;
+	background: #ffffff;
+	margin:0 auto;
+	text-align: center;
+}
+.import{
+	width: 100%;
+	height: 50px;
+	margin:0 auto;
+	text-align: center;
+}
+
+.import-r{
+	float: left;
+}
+label{
+	font-size: 18px;
+	width: 20px;
+	text-align: right;
+}
+input{
+	margin-left: 25px;
+}
+.more{
+	width: 100%;
+	margin:0 auto;
+	margin-top:20px;
+}
+.group1{
+	width: 100%;
+}
+.more ul{
+	width: 80%; 
+	margin:0 auto;
+}
+.more li{
+	line-height: 35px;
+}
+.more li span{
+	width: 80px;
+	text-align: left;
+	display:inline-block
+}
+/*域名查询*/
+.refer{
+	width: 100%;
+	height: auto;
+	margin:0 auto;
+}
+.refer-t,.refer-c{
+	width: 100%;
+	text-align: center;
+}
+.import{
+	width: 85%;
+	height: 50px;
+	text-align: center;
+	margin:0 auto; 
+}
+.demand{
+	display: inline-block;
+}
+.txt{
+	_height: 49px;
+	*height: 49px;
+}
